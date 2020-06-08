@@ -1,6 +1,6 @@
-# alostaz
+# Nuxtify
 
-> Alostaz Frontend
+> Nuxtify Learning
 
 ## Build Setup
 
