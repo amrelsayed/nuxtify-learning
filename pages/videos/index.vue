@@ -10,7 +10,7 @@
 <script>
 export default {
     head: {
-        title: 'Alostaz Frontend - Video List'
+        title: 'Nuxtify Learning - Video List'
     },
     async fetch({ $axios, store }) {
         let videos = await $axios.$get(`videos`)

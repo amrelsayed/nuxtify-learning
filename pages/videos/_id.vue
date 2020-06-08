@@ -7,7 +7,7 @@ import {mapState} from 'vuex'
 export default {
     head() {
         return {
-            title: `${this.video.name} - Alostaz Frontend`
+            title: `${this.video.name} - Nuxtify Learning`
         }
     },
     async fetch({ $axios, params, store }) {
