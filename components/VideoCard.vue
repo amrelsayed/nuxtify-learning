@@ -1,8 +1,8 @@
 <template>
     <v-card max-width="340px" 
     hover 
-    class="ma-2">
-    <!-- :to="{ name: 'video-watch', params: {id: video.id }}"> -->
+    class="ma-2"
+    :to="`/watch/${video.id}`">
     <v-img :src="video.thumb" />
     <v-card-title>{{ video.name }}</v-card-title>
     <v-card-text>
@@ -17,7 +17,7 @@
             class="mr-2"
             small
             @mousedown.stop
-            :to="{ name: 'tag', params: {id: tag.id}}">
+            :to="`/tags/${tag.id}`">
             {{ tag.name }}
             </v-btn>
         </span>
